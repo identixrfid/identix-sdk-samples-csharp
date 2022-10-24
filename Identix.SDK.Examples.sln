@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identix.SDK.Examples.Full", "src\Identix.SDK.Examples\Identix.SDK.Examples.Full.csproj", "{8A577D49-C744-4A58-A6D2-1AAABA87310E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET_FULL", ".NET_FULL", "{375923B9-D620-4DFC-AB00-E7041E1533DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".NET_CORE", ".NET_CORE", "{CA676099-E5F9-44F5-A1A7-CA712065644B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Identix.SDK.Examples.Core", "src\Identix.SDK.Core.Examples\Identix.SDK.Examples.Core.csproj", "{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A577D49-C744-4A58-A6D2-1AAABA87310E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A577D49-C744-4A58-A6D2-1AAABA87310E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A577D49-C744-4A58-A6D2-1AAABA87310E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A577D49-C744-4A58-A6D2-1AAABA87310E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A577D49-C744-4A58-A6D2-1AAABA87310E} = {375923B9-D620-4DFC-AB00-E7041E1533DF}
+		{2CF3F5A0-B6AC-4FCA-8718-1D57A079815A} = {CA676099-E5F9-44F5-A1A7-CA712065644B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3845E91C-503C-42F2-AB50-A15060402022}
+	EndGlobalSection
+EndGlobal

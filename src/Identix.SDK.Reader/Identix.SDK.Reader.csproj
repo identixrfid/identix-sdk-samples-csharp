@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Identix Inc.</Company>
+    <Authors>Identix Inc.</Authors>
+    <Product>Identix SDK</Product>
+    <AssemblyVersion>1.3.4.0</AssemblyVersion>
+    <FileVersion>1.3.4.0</FileVersion>
+    <Version>1.3.4</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Description>Identix SDK for RAIN RFID IoT gateways including: mPad+, rPad+, rPad+MX, EZ230, EZ270 and EZR2500</Description>
+    <PackageLicenseFile>License.md</PackageLicenseFile>
+    <PackageProjectUrl>idntx.com</PackageProjectUrl>
+    <RepositoryUrl>idntx.com</RepositoryUrl>
+    <PackageTags>Identix, SDK, RFID, mPad+, rPad+, rPad+MX, EZ230, EZ270 and EZR2500</PackageTags>
+    <PackageReleaseNotes>Raw mode:
+- Bug fix multiple instances connection</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\License.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
